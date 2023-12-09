@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="517.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="-2.0" prefHeight="77.0" prefWidth="518.0" styleClass="blue-background" stylesheets="@Style.css">
+         <children>
+            <ImageView fitHeight="73.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imag/img.png" />
+               </image>
+            </ImageView>
+            <VBox prefHeight="78.0" prefWidth="340.0">
+               <children>
+                  <Label prefHeight="26.0" prefWidth="126.0" text="Sơn" />
+                  <Label text="Hoạt động 45 phút trước" />
+               </children>
+            </VBox>
+            <ImageView fitHeight="37.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imag/Call.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="20.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="64.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imag/Video.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox layoutX="2.0" layoutY="464.0" prefHeight="61.0" prefWidth="518.0" styleClass="blue-background" stylesheets="@Style.css">
+         <children>
+            <ImageView fitHeight="43.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imag/Image.png" />
+               </image>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </ImageView>
+            <TextField prefHeight="58.0" prefWidth="447.0" />
+            <ImageView fitHeight="32.0" fitWidth="36.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../imag/Send.png" />
+               </image>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </ImageView>
+         </children></HBox>
+   </children>
+</AnchorPane>
